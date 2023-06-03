@@ -1,0 +1,85 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-size: 16px;
+}
+
+
+
+.fondo {
+    height: 100vh;
+    background-image:url(./IMGs/imagenes_integrador_front);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(66, 66, 66);
+    background-blend-mode: soft-light;
+}
+
+
+.enviar {
+    background-color: rgb(117, 187, 51) !important;
+}
+.footer {
+    background-color: rgb(14, 64, 71);
+    background-image: var(--bs-gradient);
+}
+.nav-item a {
+    padding: 0.62rem;
+    margin: 0.62rem 2rem;
+    place-content: center center;
+    color: white;
+}
+.nav-item a:hover {
+ color:#ddd
+}
+
+
+
+.btnReset {
+    background-color: rgb(117, 187, 51) !important;
+    
+}
+.btnSubmit{ 
+    background-color: rgb(117, 187, 51)!important;
+}
+
+.card-i{
+    border: 2px solid rgb(32, 146, 161);
+    
+}
+.card-w {
+    border: 2px solid rgb(224, 211, 23);
+   
+}
+
+#pagoTotal {
+    background-color:rgb(196, 238, 252);
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 90% !important;
+        margin-top: 25vh !important;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .btn {
+        width: 100% !important;
+    }
+   
+}
+
+@media screen and (max-width: 313px){
+    .container {
+        padding: 3rem 0 !important;
+    }
+   .form {
+    width: 100% !important;
+   }
+   
+}
